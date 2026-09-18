@@ -11,7 +11,7 @@ window.COVEN_CONTENT = {
 
   home: {
     eyebrow: "ARQUIVO DA CRÔNICA",
-    title: "Toda magia cobra um preço.",
+    title: "Bem-vindo à Academia Robichaux para Jovens Excepcionais.",
     body: "Em uma Nova Orleans onde linhagens antigas voltam a disputar território, jovens bruxas e bruxos descobrem que a guerra pelo próximo legado não envolve apenas o Coven. Criaturas místicas, sociedades rivais e civis comuns são puxados para uma trama em que cada pacto deixa uma cicatriz.",
     primaryCta: "Abrir crônica",
     secondaryCta: "Ver personagens",
