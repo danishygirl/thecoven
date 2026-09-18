@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#05070a" />
+  <meta name="description" content="COVEN — RPG gótico de bruxas, rivalidades e criaturas místicas." />
+  <title>COVEN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" data-route="home" aria-label="COVEN — Home">
+      <span class="brand-word">COVEN</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#home" data-route="home">HOME</a>
+      <a href="#personagens" data-route="personagens">PERSONAGENS</a>
+      <a href="#desafios" data-route="desafios">DESAFIOS</a>
+      <a href="#mapa" data-route="mapa">MAPA</a>
+      <a href="#episodios" data-route="episodios">EPISÓDIOS</a>
+      <a href="#deck" data-route="deck">SETE MARAVILHAS</a>
+      <a href="#bestiario" data-route="bestiario">BESTIÁRIO</a>
+    </nav>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <footer class="footer">
+    <span>COVEN</span>
+    <span id="footer-season"></span>
+  </footer>
+
+  <script src="site-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#010306"/></linearGradient>
+<radialGradient id="moon"><stop stop-color="#dce7ef" stop-opacity=".9"/><stop offset="1" stop-color="#7394ad" stop-opacity="0"/></radialGradient>
+<filter id="fog"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="700" fill="url(#sky)"/>
+<circle cx="900" cy="105" r="120" fill="url(#moon)"/>
+<g fill="#070a0f" opacity=".95"><rect x="350" y="265" width="520" height="300"/><polygon points="315,285 610,120 905,285"/><rect x="430" y="205" width="85" height="360"/><rect x="710" y="195" width="90" height="370"/></g>
+<g fill="#1d3446" opacity=".6"><rect x="415" y="350" width="65" height="90"/><rect x="535" y="350" width="65" height="90"/><rect x="655" y="350" width="65" height="90"/><rect x="775" y="350" width="65" height="90"/></g>
+<g fill="#0b1520"><rect x="0" y="560" width="1200" height="140"/></g>
+<g stroke="#07131d" stroke-width="24"><path d="M80 700Q120 490 90 260M1070 700Q1020 480 1100 230"/><path d="M100 360Q210 250 280 150M1070 330Q980 230 940 150"/></g>
+<ellipse cx="610" cy="585" rx="500" ry="75" fill="#6686a0" opacity=".08" filter="url(#fog)"/>
+</svg>

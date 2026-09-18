@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0710"/><stop offset="1" stop-color="#05070b"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="16"/></filter></defs>
+<rect width="1200" height="700" fill="url(#g)"/>
+<rect x="210" y="150" width="780" height="430" fill="#090a0e" stroke="#2e2b31" stroke-width="5"/>
+<rect x="315" y="260" width="210" height="255" fill="#11121a"/><rect x="675" y="260" width="210" height="255" fill="#11121a"/>
+<path d="M575 580V325h50v255" stroke="#25202b" stroke-width="14"/>
+<text x="600" y="220" text-anchor="middle" font-family="Georgia" font-size="72" letter-spacing="18" fill="#d7c4a6" opacity=".8">NOCTURNE</text>
+<ellipse cx="600" cy="510" rx="260" ry="90" fill="#7c204c" opacity=".14" filter="url(#glow)"/>
+</svg>
